@@ -12,7 +12,7 @@ if page == 'Home Page':
     st.divider()
     st.caption('Model dibuat oleh Edy untuk VANGUARD Investment Group')
     # Insert image here
-    st.image("vanguard.jpg", width=250)
+    st.image("https://github.com/eeeeeedy/bankruptcy_prediction/blob/main/deployment/vanguard.jpg?raw=true", width=250)
 elif page == 'EDA of Dataset':
     eda.run()
 else:
