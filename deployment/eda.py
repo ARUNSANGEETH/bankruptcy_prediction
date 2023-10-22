@@ -7,7 +7,7 @@ from random import randint
 
 def run():
     st.header("Welcome to EDA of the Dataset")
-    st.markdown('Made by <a href="https://www.linkedin.com/in/edysetiawan/" target="_blank">Edy Setiawan</a>', unsafe_allow_html=True)
+    st.markdown('Made by <a href="https://www.linkedin.com/in/edysetiawan/" target="_blank" style="font-size: 20px;">Edy Setiawan</a>', unsafe_allow_html=True)
 
     st.header('Exploratory Data Analysis')
 
