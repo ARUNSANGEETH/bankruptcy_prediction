@@ -7,8 +7,8 @@ def run():
     st.header("Model Prediksi Kebangkrutan")
 
     # Load the saved models and transformers
-    with open('best_rf_pipeline.pkl', 'rb') as file_1:
-        loaded_model = pickle.load(file_1)
+    with open('deployment/best_rf_pipeline.pkl', 'rb') as f:
+        loaded_model = pickle.load(f)
 
     # Get user input
     columns = [
