@@ -11,7 +11,7 @@ def run():
 
     with st.expander('Explanation'):
         st.caption('Model akan memprediksi apakah sebuah perusahaan akan bangkrut: 0 [no] , 1 [yes]')
-        img = Image.open('https://github.com/eeeeeedy/bankruptcy_prediction/blob/main/deployment/vanguard.jpg?raw=true')
+        img = Image.open('deployment/vanguard.jpg')
         st.image(img, width=250)
 
     st.header('Exploratory Data Analysis')
