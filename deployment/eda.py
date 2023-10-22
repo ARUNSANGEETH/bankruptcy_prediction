@@ -7,18 +7,18 @@ from random import randint
 
 def run():
     st.header("Welcome to my app for Bankruptcy Prediction")
-    st.title('Made by Edy Setiawan - HCK007')
+    st.title('Made by Edy Setiawan - https://www.linkedin.com/in/edysetiawan/')
 
     with st.expander('Explanation'):
         st.caption('Model akan memprediksi apakah sebuah perusahaan akan bangkrut: 0 [no] , 1 [yes]')
-        img = Image.open('vanguard.jpg')
+        img = Image.open('https://github.com/eeeeeedy/bankruptcy_prediction/blob/main/deployment/vanguard.jpg?raw=true')
         st.image(img, width=250)
 
     st.header('Exploratory Data Analysis')
 
     try:
         # Load the data
-        df = pd.read_csv('Company_Bankruptcy_Prediction_dataset.csv')
+        df = pd.read_csv('https://raw.githubusercontent.com/eeeeeedy/bankruptcy_prediction/main/Company_Bankruptcy_Prediction_dataset.csv')
     except Exception as e:
         st.error(f"An error occurred: {e}")
         return
