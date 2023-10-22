@@ -5,6 +5,10 @@ import numpy as np
 
 def run():
     st.header("Model Prediksi Kebangkrutan")
+    
+    with st.expander('Explanation'):
+        st.caption('Model akan memprediksi apakah sebuah perusahaan akan bangkrut: 0 [no] , 1 [yes]')
+        st.image('https://github.com/eeeeeedy/bankruptcy_prediction/blob/main/deployment/vanguard.jpg?raw=true', width=250)
 
     # Load the saved models and transformers
     with open('deployment/best_rf_pipeline.pkl', 'rb') as f:
