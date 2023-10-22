@@ -6,12 +6,8 @@ from PIL import Image
 from random import randint
 
 def run():
-    st.header("Welcome to my app for Bankruptcy Prediction")
+    st.header("Welcome to EDA of the Dataset")
     st.title('Made by Edy Setiawan - https://www.linkedin.com/in/edysetiawan/')
-
-    with st.expander('Explanation'):
-        st.caption('Model akan memprediksi apakah sebuah perusahaan akan bangkrut: 0 [no] , 1 [yes]')
-        st.image('https://github.com/eeeeeedy/bankruptcy_prediction/blob/main/deployment/vanguard.jpg?raw=true', width=250)
 
     st.header('Exploratory Data Analysis')
 
